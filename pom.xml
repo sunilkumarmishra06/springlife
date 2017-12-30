@@ -25,17 +25,17 @@
   </dependencies>
 <profiles>
       <profile>
-         <id>xcard-deploy</id>
+         <id>visacard--deploy</id>
  <distributionManagement>
     <repository>
-      <id>xcard-releases</id>
-      <name>xcard-releases</name>
-      <url>http://nexus.example.com:8081/nexus/content/repositories/xcard-releases/</url>
+      <id>visacard-releases</id>
+      <name>visacard-releases</name>
+      <url>http://ec2-18-217-206-225.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/visacard-releases/</url>
     </repository>
     <snapshotRepository>
-      <id>xcard-snapshots</id>
-      <name>xcard-snapshots</name>
-      <url>http://nexus.example.com:8081/nexus/content/repositories/xcard-snapshots/</url>
+      <id>visacard-snapshots</id>
+      <name>visacard-snapshots</name>
+      <url>http://ec2-18-217-206-225.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/visacard-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
 </profile>
