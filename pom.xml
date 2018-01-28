@@ -7,7 +7,7 @@
   <version>2.0-SNAPSHOT</version>
   <name>SpringExample</name>
   <url>http://maven.apache.org</url>
-  
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -15,13 +15,13 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-    
+
     <!-- Spring framework -->
-	<dependency>
-		<groupId>org.springframework</groupId>
-		<artifactId>spring</artifactId>
-		<version>2.5.6</version>
-	</dependency> 
+        <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring</artifactId>
+                <version>2.5.6</version>
+        </dependency>
   </dependencies>
 <profiles>
       <profile>
@@ -30,12 +30,12 @@
     <repository>
       <id>visacard-releases</id>
       <name>visacard-releases</name>
-      <url>http://ec2-18-217-206-225.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/visacard-releases/</url>
+      <url>http://192.168.33.12:8081/nexus/content/repositories/visacard-releases/</url>
     </repository>
     <snapshotRepository>
       <id>visacard-snapshots</id>
       <name>visacard-snapshots</name>
-      <url>http://ec2-18-217-206-225.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/visacard-snapshots/</url>
+      <url>http://192.168.33.12:8081/nexus/content/repositories/visacard-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
 </profile>
